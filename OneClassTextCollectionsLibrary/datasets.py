@@ -25,7 +25,8 @@ def load(path_files=''):
   bases = {}
   for item in files_in_basepath:
     if item.is_file():
-      df = pd.read_csv('./News/' + item.name, index_col=False)
+      df = pd.read_csv('./News/' + item.name)
+      df = df.drop(columns=['Unnamed: 0'])
       bases[item.name.replace('.csv','')] = df
 
   return bases
