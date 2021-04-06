@@ -23,41 +23,9 @@ datasets_dictionary = datasets.load()
 # Tópicos de cada coleção textual
 
 - Restaurant | Opera | Employee | Logistics | Imports | Flood | Tariff | Court | Children  | Series | Metal | Ethics | Rugby | Painting 
-- War 
--Investments 
--School 
--Revolution 
--Society 
--People 
--Justice 
--Therapy 
--Marathon 
--Adults 
--Theft 
--Unemployment 
--Parks 
--Grocery 
--University 
--Gender 
--Assault
--Traffic 
--Retail 
--Medicare 
--Stocks 
--Massacre 
--Water 
--Rivers 
--Lifestyle 
--Voting 
--Bar 
--Earthquake 
--Welfare 
--Media 
--Impeachment 
--Illness 
--Fishing 
--Wedding 
--Fraud 
+- War | Investments | School | Revolution | Society | People | Justice | Therapy | Marathon | Adults | Theft | Unemployment | Parks | Grocery 
+- University | Gender | Assault | Traffic | Retail | Medicare | Stocks | Massacre | Water | Rivers | Lifestyle | Voting | Bar | Earthquake 
+- Welfare | Media | Impeachment | Illness | Fishing | Wedding | Fraud 
 -Teachers 
 -Pope 
 -Fashion 
