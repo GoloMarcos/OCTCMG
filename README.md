@@ -22,17 +22,20 @@ datasets_dictionary = datasets.load()
 
 # One-Class Text Collections
 
-- Restaurant | Opera | Employee | Logistics | Imports | Flood | Tariff | Court | Children  | Series | Metal | Ethics | Rugby 
-- War | Investments | School | Revolution | Society | People | Justice | Therapy | Marathon | Adults | Theft | Unemployment | Parks 
-- University | Gender | Assault | Traffic | Retail | Medicare | Stocks | Massacre | Water | Rivers | Lifestyle | Voting | Bar 
-- Welfare | Media | Impeachment | Illness | Fishing | Wedding | Fraud | Teachers | Pope | Fashion | Fire | Terrorism | Constitution | Unions 
-- Environment | Currency | Television | Social-media | Boxing | Architecture | Birthday | Theatre | Fiction | Politics | Design | Church 
-- Drought | Arrest | Charity | Mosque | Police | Disaster | Sailing | Tobacco | Transfer | Education | Cancer | Students | Law | Musical 
-- Diet | Pension |Cinema | Advertising | Pandemic | Retirement | Radio | Judge | Newspaper | Medicine | Bonds | Volleyball | Consumers 
-- Animal | Coal | Surveillance | Ceremony | Management | Loans | Suicide | Democracy | Golf | Medicaid | Drama | Hurricane | Insurance 
-- Arson | Trend | Immigration | Labour | Automotive | Festival | Prison | Investigation | Exports | Tourism | Regulations | Anniversary 
-- Petrol | Language | Party | Prices | Parliament | Bullying | Poverty | Banking | Weather | Dance | Election | Holiday | Sport | Game 
-- Crime | Vaccines | Health | Recession | Employment | Music | College | Wildfire | Celebrity | Beverage | Mortgage | Homicide | Bankruptcy 
-- Abortion | Halloween | Bribery | Securities | Software | LGBTQ | Government | Economy | Shareholder | Witness | Plant | Inflation | Easter 
-- Mining | Transport | Discrimination | Divorce | Toy | Agriculture | Defence | Hospital | Epidemic | Farms | Earnings | Nature | Cafe | Hunting 
+- Restaurant | Opera | Employee | Logistics | Imports | Flood | Tariff | Court | Children  | Series | Metal | Ethics  
+- War | Investments | School | Revolution | Society | People | Justice | Therapy | Marathon | Adults | Theft 
+- University | Gender | Assault | Traffic | Retail | Medicare | Stocks | Massacre | Water | Rivers | Lifestyle 
+- Welfare | Media | Impeachment | Illness | Fishing | Wedding | Fraud | Teachers | Pope | Fashion | Fire | Terrorism 
+- Environment | Currency | Television | Social-media | Boxing | Architecture | Birthday | Theatre | Fiction | Politics 
+- Drought | Arrest | Charity | Mosque | Police | Disaster | Sailing | Tobacco | Transfer | Education | Cancer | Students 
+- Diet | Pension |Cinema | Advertising | Pandemic | Retirement | Radio | Judge | Newspaper | Medicine | Bonds | Volleyball 
+- Animal | Coal | Surveillance | Ceremony | Management | Loans | Suicide | Democracy | Golf | Medicaid | Drama | Hurricane 
+- Arson | Trend | Immigration | Labour | Automotive | Festival | Prison | Investigation | Exports | Tourism | Regulations 
+- Petrol | Language | Party | Prices | Parliament | Bullying | Poverty | Banking | Weather | Dance | Election | Holiday 
+- Crime | Vaccines | Health | Recession | Employment | Music | College | Wildfire | Celebrity | Beverage | Mortgage 
+- Abortion | Halloween | Bribery | Securities | Software | LGBTQ | Government | Economy | Shareholder | Witness | Plant 
+- Mining | Transport | Discrimination | Divorce | Toy | Agriculture | Defence | Hospital | Epidemic | Farms | Earnings 
 - Christmas | Family | Culture | Racism | Surgery | Privacy | Adoption | Kidnapping | Marriage | Grocery | Earthquake | Painting 
+- Rugby | Unemployment | Parks | Voting | Bar | Constitution | Unions | Design | Church | Law | Musical | Consumers 
+-  Insurance | Anniversary | Sport | Game | Homicide | Bankruptcy | Inflation | Easter | Nature | Cafe | Hunting 
+
