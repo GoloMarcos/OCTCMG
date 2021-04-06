@@ -28,14 +28,14 @@ datasets_dictionary = datasets.load()
 - Welfare | Media | Impeachment | Illness | Fishing | Wedding | Fraud | Teachers | Pope | Fashion | Fire | Terrorism 
 - Environment | Currency | Television | Social-media | Boxing | Architecture | Birthday | Theatre | Fiction | Politics 
 - Drought | Arrest | Charity | Mosque | Police | Disaster | Sailing | Tobacco | Transfer | Education | Cancer | Students 
-- Diet | Pension |Cinema | Advertising | Pandemic | Retirement | Radio | Judge | Newspaper | Medicine | Bonds | Volleyball 
-- Animal | Coal | Surveillance | Ceremony | Management | Loans | Suicide | Democracy | Golf | Medicaid | Drama | Hurricane 
-- Arson | Trend | Immigration | Labour | Automotive | Festival | Prison | Investigation | Exports | Tourism | Regulations 
+- Diet | Pension |Cinema | Advertising | Pandemic | Retirement | Radio | Judge | Newspaper | Medicine | Bonds 
+- Animal | Coal | Surveillance | Ceremony | Management | Loans | Suicide | Democracy | Golf | Medicaid | Drama 
+- Arson | Trend | Immigration | Labour | Automotive | Festival | Prison | Investigation | Exports | Tourism 
 - Petrol | Language | Party | Prices | Parliament | Bullying | Poverty | Banking | Weather | Dance | Election | Holiday 
 - Crime | Vaccines | Health | Recession | Employment | Music | College | Wildfire | Celebrity | Beverage | Mortgage 
-- Abortion | Halloween | Bribery | Securities | Software | LGBTQ | Government | Economy | Shareholder | Witness | Plant 
+- Abortion | Halloween | Bribery | Securities | Software | LGBTQ | Government | Economy | Shareholder | Witness 
 - Mining | Transport | Discrimination | Divorce | Toy | Agriculture | Defence | Hospital | Epidemic | Farms | Earnings 
-- Christmas | Family | Culture | Racism | Surgery | Privacy | Adoption | Kidnapping | Marriage | Grocery | Earthquake | Painting 
+- Christmas | Family | Culture | Racism | Surgery | Privacy | Adoption | Kidnapping | Marriage | Grocery 
 - Rugby | Unemployment | Parks | Voting | Bar | Constitution | Unions | Design | Church | Law | Musical | Consumers 
--  Insurance | Anniversary | Sport | Game | Homicide | Bankruptcy | Inflation | Easter | Nature | Cafe | Hunting 
-
+- Insurance | Anniversary | Sport | Game | Homicide | Bankruptcy | Inflation | Easter | Nature | Cafe | Hunting 
+- Volleyball | Hurricane | Regulations | Plant | Earthquake | Painting 
