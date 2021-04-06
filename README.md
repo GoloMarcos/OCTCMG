@@ -4,7 +4,7 @@ One-Class Text Collections From Marcos Gôlo
 
 # Informations
 
-Essas coleções textuais one-class são formadas por títulos de notícias retiradas do projeto GDELT (Global Database of Events, Language, and Tone). Os tópicos relacionados a cada coleção textual foram escolhidos com base na taxonomia do IPTC (International Press Telecommunications Council). O projeto GDELT se encontra em https://www.gdeltproject.org/ e todos os tópicos do IPTC em https://www.iptc.org/std/NewsCodes/treeview/mediatopic/mediatopic-en-GB.html. A coleta das notícias foi feita verificando se notícias continham o tópico em seu título. Tópicos que retornaram menos que 4000 notícias não foram considerados como coleção textual. Foi definido o limite de 6000 notícias para todas as coleções textuais. Por fim, foram obtidas 183 coleções textuais. 
+These one-class text collections are made up of news headlines from the GDELT project (Global Database of Events, Language, and Tone). The topics related to each textual collection were chosen based on the taxonomy of the IPTC (International Press Telecommunications Council). The GDELT project can be found at https://www.gdeltproject.org/ and all IPTC topics at https://www.iptc.org/std/NewsCodes/treeview/mediatopic/mediatopic-en-GB.html. The collection of the news was made by checking if the news contained the topic in its title. Topics that returned less than 4000 news items were not considered as a text collection. The limit of 6000 news items has been defined for all text collections. Finally, 183 text collections were obtained.
 
 # How to Use
 
@@ -14,13 +14,13 @@ from OneClassTextCollectionsLibrary import datasets
 
 datasets_dictionary = datasets.load()
 
-# Dataframe de cada coleção textual == datasets_dictionary[base name]
+# The Dataframe of each text collection return (datasets_dictionary[base name]):
 
-- Id da notícia
-- Data da notícia
-- Título da notícia
+- News Id 
+- News Date
+- News Title
 
-# Tópicos de cada coleção textual
+# One-Class Text Collections
 
 - Restaurant | Opera | Employee | Logistics | Imports | Flood | Tariff | Court | Children  | Series | Metal | Ethics | Rugby 
 - War | Investments | School | Revolution | Society | People | Justice | Therapy | Marathon | Adults | Theft | Unemployment | Parks 
