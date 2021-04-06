@@ -36,6 +36,6 @@ datasets_dictionary = datasets.load()
 - Abortion | Halloween | Bribery | Securities | Software | LGBTQ | Government | Economy | Shareholder | Witness 
 - Mining | Transport | Discrimination | Divorce | Toy | Agriculture | Defence | Hospital | Epidemic | Farms | Earnings 
 - Christmas | Family | Culture | Racism | Surgery | Privacy | Adoption | Kidnapping | Marriage | Grocery 
-- Rugby | Unemployment | Parks | Voting | Bar | Constitution | Unions | Design | Church | Law | Musical | Consumers 
+- Rugby | Unemployment | Parks | Voting | Bar | Constitution | Unions | Design | Church | Law | Musical  
 - Insurance | Anniversary | Sport | Game | Homicide | Bankruptcy | Inflation | Easter | Nature | Cafe | Hunting 
-- Volleyball | Hurricane | Regulations | Plant | Earthquake | Painting 
+- Volleyball | Hurricane | Regulations | Plant | Earthquake | Painting | Consumers
