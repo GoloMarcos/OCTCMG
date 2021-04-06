@@ -22,8 +22,8 @@ datasets_dictionary = datasets.load()
 
 # Tópicos de cada coleção textual
 
--Restaurant 
--Opera 
+- Restaurant 
+- Opera 
 -Employee 
 -Logistics 
 -Imports 
