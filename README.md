@@ -4,7 +4,7 @@ One-Class Text Collections From Marcos Gôlo
 
 # Informations
 
-These one-class text collections are made up of news headlines from the GDELT project (Global Database of Events, Language, and Tone). The topics related to each textual collection were chosen based on the taxonomy of the IPTC (International Press Telecommunications Council). The GDELT project can be found at https://www.gdeltproject.org/ and all IPTC topics at https://www.iptc.org/std/NewsCodes/treeview/mediatopic/mediatopic-en-GB.html. The collection of the news was made by checking if the news contained the topic in its title. Topics that returned less than 4000 news items were not considered as a text collection. The limit of 6000 news items has been defined for all text collections. Finally, 183 text collections were obtained.
+These one-class text collections are made up of titles news from the GDELT project (Global Database of Events, Language, and Tone). The topics related to each textual collection were chosen based on the taxonomy of the IPTC (International Press Telecommunications Council). The GDELT project can be found at https://www.gdeltproject.org/ and all IPTC topics at https://www.iptc.org/std/NewsCodes/treeview/mediatopic/mediatopic-en-GB.html. The collection of the news was made by checking if the news contained the topic in its title. Topics that returned less than 4000 news items were not considered as a text collection. The limit of 6000 news items has been defined for all text collections. Finally, 183 text collections were obtained.
 
 # How to Use
 
