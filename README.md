@@ -22,15 +22,8 @@ datasets_dictionary = datasets.load()
 
 # Tópicos de cada coleção textual
 
-- Restaurant | Opera | Employee  | Logistics  | Imports | Flood | Tariff 
-- Court 
--Children 
--Series 
--Metal 
--Ethics 
--Rugby 
--Painting 
--War 
+- Restaurant | Opera | Employee | Logistics | Imports | Flood | Tariff | Court | Children  | Series | Metal | Ethics | Rugby | Painting 
+- War 
 -Investments 
 -School 
 -Revolution 
