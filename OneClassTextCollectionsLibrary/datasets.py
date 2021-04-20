@@ -5,9 +5,9 @@ from pathlib import Path
 def load(path_files=''):
 
   '''
-  this function download and load all datasets and return a dictionary in which any key represent the dataset
+  this function download and load all datasets, and return a dictionary in which any key represent the dataset
   
-  if the files directory exist, to load them, pass the path where the directory are through the path_files parameter
+  if the files exist, to load them, pass the path where the directory are through the path_files parameter
   
   this function changes the current directory, remember to go back to the directory you were in
   '''
