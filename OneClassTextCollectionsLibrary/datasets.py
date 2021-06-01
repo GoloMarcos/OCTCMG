@@ -15,18 +15,17 @@ def load(path_files=''):
   if path_files != '':
     os.chdir(path_files)
 
-  if not Path('One-Class-News.zip').is_file():
-    os.system('gdown --id 19tNpMB_U1GJLXpU1Bo0TL2moQlwUXwAF')
-    os.system('unzip One-Class-News.zip') 
+  if not Path('News.zip').is_file():
+    os.system('gdown --id ')
+    os.system('unzip News.zip') 
 
   
   basepath = Path('./News/')
   files_in_basepath = basepath.iterdir()
-  bases = {}
+  datasets = {}
   for item in files_in_basepath:
     if item.is_file():
-      df = pd.read_csv('./News/' + item.name)
-      df = df.drop(columns=['Unnamed: 0'])
-      bases[item.name.replace('.csv','')] = df
+      df = pd.read_piclke('./News/' + item.name)
+      datasets[item.name.replace('.plk','')] = df
 
-  return bases
+  return datasets
