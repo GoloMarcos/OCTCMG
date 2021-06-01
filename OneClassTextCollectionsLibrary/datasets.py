@@ -16,7 +16,7 @@ def load(path_files=''):
     os.chdir(path_files)
 
   if not Path('News.zip').is_file():
-    os.system('gdown --id ')
+    os.system('gdown --id 1-20ozBt8NjnN1X_F_HkXVMlDl67CUYNW')
     os.system('unzip News.zip') 
 
   
@@ -25,7 +25,7 @@ def load(path_files=''):
   datasets = {}
   for item in files_in_basepath:
     if item.is_file():
-      df = pd.read_piclke('./News/' + item.name)
+      df = pd.read_pickle('./News/' + item.name)
       datasets[item.name.replace('.plk','')] = df
 
   return datasets
