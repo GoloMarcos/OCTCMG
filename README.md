@@ -24,7 +24,7 @@ datasets_dictionary = datasets.load()
 - News Embeddings from DistilBERT Multilingual
 - News Embeddings from RoBERTa
 
-# I obtain the embeddings with the library sentence_tranformers
+# We obtain the embeddings with the library sentence_tranformers
 - BERT model: bert-large-nli-stsb-mean-tokens
   -  Devlin, Jacob, et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). 2019.
 - DistilBERT model: distilbert-base-nli-stsb-mean-tokens
