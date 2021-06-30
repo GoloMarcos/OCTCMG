@@ -11,9 +11,6 @@ def load(path_files='', only_download = False, dataset = 'All'):
   
   '''
 
-  if path_files != '':
-    os.chdir(path_files)
-
   if not Path(path_files + '/News.zip').is_file():
     cmd = 'gdown --id 1-20ozBt8NjnN1X_F_HkXVMlDl67CUYNW -O ' + path_files + '/News.zip'
     os.system(cmd)
