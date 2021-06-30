@@ -14,6 +14,13 @@ from OneClassTextCollectionsLibrary import datasets
 
 datasets_dictionary = datasets.load()
 
+# Parameters from load()
+
+- load() has 3 parameters
+- path of collections 
+- a boolean parameter to download the collections but not load
+- a parameter to load only one collection, informing your name
+
 # The Dataframe of each text collection return (datasets_dictionary[base name]):
 
 - News Id 
@@ -23,6 +30,10 @@ datasets_dictionary = datasets.load()
 - News Embeddings from DistilBERT
 - News Embeddings from DistilBERT Multilingual
 - News Embeddings from RoBERTa
+- Class (interest or outlier)
+  - the outliers are texts from the 182 other collections
+  - the length of outliers are similar to 10% of the length of the texts of the class of interest 
+
 
 # We obtain the embeddings with the library sentence_tranformers
 - BERT model: bert-large-nli-stsb-mean-tokens
