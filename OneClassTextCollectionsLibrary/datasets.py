@@ -12,6 +12,7 @@ def load(path_files='', only_download = False, dataset = 'All'):
   '''
   
   if not Path(path_files + 'News/').is_dir():
+    print('oioi')
     if not Path(path_files + 'News.zip').is_file():
       cmd = 'wget -P ' + path_files +  ' https://zenodo.org/record/5048322/files/News.zip'
       os.system(cmd)
