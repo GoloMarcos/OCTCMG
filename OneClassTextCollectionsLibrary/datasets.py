@@ -10,12 +10,14 @@ def load(path_files='', only_download = False, dataset = 'All'):
   if the directory already exist, to load them, pass the path where the directory are through the path_files parameter
   
   '''
-
-  if not Path(path_files + 'News.zip').is_file():
-    cmd = 'gdown --id 1-20ozBt8NjnN1X_F_HkXVMlDl67CUYNW -O ' + path_files + 'News.zip'
-    os.system(cmd)
+  
+  if not Path(path_files + 'News/').is_dir():
+    if not Path(path_files + 'News.zip').is_file():
+      cmd = 'wget -P ' + path_files +  ' https://zenodo.org/record/5048322/files/News.zip'
+      os.system(cmd)
+      
     cmd2 = 'unzip ' + path_files + 'News.zip'
-    os.system(cmd2) 
+    os.system(cmd2)
     
   if not only_download:
     if dataset == 'All':
