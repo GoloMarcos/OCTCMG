@@ -1,6 +1,6 @@
 import pandas as pd
 from os.path import isdir, isfile
-from path import Path
+from pathlib import Path
 
 def load(path_files='', only_download = False, dataset = 'All'):
 
