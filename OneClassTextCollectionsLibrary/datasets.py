@@ -13,15 +13,19 @@ def load(path_files='', only_download = False, dataset = 'All'):
   '''
   if not isdir(path_files + 'News/'):
     if not isfile(path_files + 'News.zip'):
-      if path_files != '':
+      if path_files != '': 
         cmd = 'wget -P ' + path_files +  ' https://zenodo.org/record/5048322/files/News.zip'
       else:
         cmd = 'wget https://zenodo.org/record/5048322/files/News.zip'
       
+      print('Download News.zip')
       os.system(cmd)
+      print('Download Finished!')
       
     cmd2 = 'unzip ' + path_files + 'News.zip'
+    print('Unzip News.zip')
     os.system(cmd2)
+    print('Unzip Finished!')
     
   if not only_download:
     if dataset == 'All':
