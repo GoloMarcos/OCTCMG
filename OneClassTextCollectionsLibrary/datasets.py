@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from os.path import isdir, isfile
 from pathlib import Path
 
@@ -10,11 +11,13 @@ def load(path_files='', only_download = False, dataset = 'All'):
   if the directory already exist, to load them, pass the path where the directory are through the path_files parameter
   
   '''
-  print('aqqqq')
   if not isdir(path_files + 'News/'):
-    print('oioi')
     if not isfile(path_files + 'News.zip'):
-      cmd = 'wget -P ' + path_files +  ' https://zenodo.org/record/5048322/files/News.zip'
+      if path_files != '':
+        cmd = 'wget -P ' + path_files +  ' https://zenodo.org/record/5048322/files/News.zip'
+      else:
+        cmd = 'wget https://zenodo.org/record/5048322/files/News.zip'
+      
       os.system(cmd)
       
     cmd2 = 'unzip ' + path_files + 'News.zip'
