@@ -2,6 +2,22 @@
 
 One-Class Text Collections From Marcos Gôlo
 
+# Citing:
+
+If you use any part of this code or the datasets in your research, please cite it using the following BibTex entry
+```latex
+@article{ref:Golo2021,
+  title={Learning to sense from events via semantic variational autoencoder},
+  author={Gôlo, Marcos Paulo Silva and Rossi, Rafael Geraldeli and Marcacini, Ricardo Marcondes},
+  journal={Plos one},
+  volume={16},
+  number={12},
+  pages={e0260701},
+  year={2021},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+```
+
 # Informations
 
 I collect these one-class text collections with my advisor Ricardo Marcondes Marcacini. We built these one-class text collections by the news titles from the project Global Database of Events, Language, and Tone (GDELT). We chose the topics related to each textual collection based on the International Press Telecommunications Council (IPTC) taxonomy. You can find the GDELT project at https://www.gdeltproject.org/ and all IPTC topics at https://www.iptc.org/std/NewsCodes/treeview/mediatopic/mediatopic-en-GB.html. The collection of the news was made by checking if the news contained the topic in its title. I did not consider topics that returned less than 4000 news items. Furthermore, I define the limit of 6000 news items has for all text collections. Finally, we obtain 183 text collections.
