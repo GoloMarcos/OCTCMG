@@ -32,8 +32,8 @@ datasets_dictionary = datasets.load()
 
 # Parameters from load()
 
-- path: path of collections 
-- download_only: a boolean parameter to download the collections but not load
+- path_files: path of collections 
+- only_download: a boolean parameter to download the collections but not load
 - dataset: a parameter to load only one collection, informing your name
 
 # The Dataframe of each text collection return (datasets_dictionary[base name]):
