@@ -1,10 +1,9 @@
-# OCTCMG
-
-One-Class Text Collections From Marcos Gôlo
+# One-Class Text Collections
 
 # Citing:
 
 If you use any part of this code or the datasets in your research, please cite it using the following BibTex entry
+
 ```latex
 @article{ref:Golo2021,
   title={Learning to sense from events via semantic variational autoencoder},
